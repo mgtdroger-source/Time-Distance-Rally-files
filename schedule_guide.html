@@ -1,761 +1,196 @@
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schedule — Route, Timings and Controls (Guide)</title>
 <style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Courier;
-	panose-1:2 7 4 9 2 2 5 2 4 4;}
-@font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"MS Mincho";
-	panose-1:2 2 6 9 4 2 5 8 3 4;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:"Segoe UI Emoji";
-	panose-1:2 11 5 2 4 2 4 2 2 3;}
-@font-face
-	{font-family:Cambria;
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:"\@MS Mincho";
-	panose-1:2 2 6 9 4 2 5 8 3 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Cambria",serif;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Cambria",serif;}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Cambria",serif;}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Cambria",serif;}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Cambria",serif;}
-.MsoChpDefault
-	{font-family:"Cambria",serif;}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
-@page WordSection1
-	{size:612.0pt 792.0pt;
-	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
+/* TD Rally Guide Base (stable, GitHub/local consistent) */
+:root{
+  --td-blue:#0070C0;
+  --td-text:#111;
+  --td-muted:#444;
+}
+html,body{margin:0;padding:0;background:#fff;color:var(--td-text);}
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size:14px;
+  line-height:1.55;
+}
+main{
+  max-width: 980px;
+  margin: 36px auto;
+  padding: 0 24px 40px;
+}
+h1{
+  font-size:26px;
+  line-height:1.2;
+  margin: 0 0 14px;
+  color: var(--td-blue);
+  font-weight: 700;
+}
+h2{
+  font-size:18px;
+  line-height:1.25;
+  margin: 22px 0 10px;
+  color: var(--td-blue);
+  font-weight: 700;
+}
+h3{
+  font-size:14px;
+  line-height:1.25;
+  margin: 14px 0 6px;
+  color: var(--td-text);
+  font-weight: 600;
+}
+p{margin: 0 0 10px;}
+ul{margin: 0 0 10px 22px; padding:0;}
+li{margin: 0 0 6px;}
+.note{
+  color: var(--td-muted);
+  margin-top: 2px;
+}
+hr{
+  border:0;
+  border-top:1px solid #e5e7eb;
+  margin: 18px 0;
+}
 </style>
-
 </head>
-
-<body lang=EN-GB style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:18.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Schedule
-— Route, Timings and Controls</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:16.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Overview</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>The Schedule page is used to
-build the rally route and calculate timings. You add rows of instructions and
-controls as required, you set distance and speed for each row of the schedule.
-As controls are added to the schedule, they are automatically added to the
-controls page based on the selected rally day.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>The page has a Normal/Compact
-button, toggling the button changes the page size.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-0cm;margin-left:2.0cm;line-height:250%'><span lang=EN-US style='font-size:14.0pt;
-line-height:250%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Key
-items</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:0cm;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Build the route using instruction and
-control rows.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:0cm;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Define distances and speeds, times are
-calculated automatically.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:0cm;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Control what prints using tick boxes
-and colour rules.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:0cm;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Manage Speed Groups (SG) by comparing
-side by side.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:0cm;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Add and manage Added Time adjustments,
-examples, traffic lights, tea and lunch stops.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:0cm;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Save, Load, Rally projects. </span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:0cm;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Print schedule outputs based on day
-and speed group.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:16.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Rows</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Row types</span><span
-lang=EN-US style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif;
-color:#0070C0'>:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Instruction — normal route instruction.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>STC — Self Time Control.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Marshal — marshal control point.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Open Control — a control with rules.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Added Time </span><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif'>—</span><span
-lang=EN-US style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif'>
-applies a time delay adjustment, per speed group.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Start STC </span><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif'>—</span><span
-lang=EN-US style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif'>
-resets the timing baseline.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Font colour and
-print protocol</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>To clearly indicate editability
-and that printed.<br>
-<br>
-<span style='color:#0070C0'>Colour rules:</span></span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Blue text — auto-calculated and none
-editable.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Red text — will not appear in print.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Black text — normal editable and printed
-content.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Notes:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Red text is automatically excluded
-from a print output.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Colour feedback updates immediately as
-options change.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Tick boxes for printing
-options</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>To control whether specific
-values appear in a printed output.<br>
-<br>
-How it works:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>DIST and TIME fields include a tick
-box.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt;line-height:150%'><span
-lang=EN-US style='font-size:13.0pt;line-height:150%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:150%;
-font-family:"Segoe UI Emoji",sans-serif'>When ticked, the value turns red and
-not printed.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:72.0pt;line-height:150%'><span lang=EN-US
-style='font-size:13.0pt;line-height:150%;font-family:"Segoe UI Emoji",sans-serif'>Note:
-Some row types automatically suppress detail from print.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Pristine state
-(orange warning)</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Indicates values that have not
-yet been edited or confirmed.<br>
-<br>
-How it works:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Newly added row the DIST and SPEED
-values present an orange ring.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>The ring clears once the value is
-edited or confirmed.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Pristine is a visual warning only.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>It does not affect calculations or
-printing.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Distance validation</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Warning of an invalid distance
-sequence.</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>If a distance goes backwards, the
-field is flagged by a red border.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>This highlights a route definition
-error.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:74.7pt'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Note: Calculations continue, but
-the error should be corrected before use.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Speed validation
-(print clarity)</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Speeds are only printed in a following
-row when there is value change, this is applied automatically.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Gear icon in the
-first coloumb</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>When selected a menu is present
-offering a number of insertion options, an insert is placed in the row below
-that first selected, there is also a delete option. <br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Turn column and
-print selection</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Turn instructions can optionally appear
-in printed output. For those that prefer to write turnings as part of an
-instruction text, the Turn column can be switch off.</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:14.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>The TURN column has a global print
-toggle, click “Turn” in the column header it will turn red</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:14.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>When disabled, the TURN column is
-hidden from print</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:14.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Visual feedback shows the column
-details in red, will not be printed.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Speed Group (SG)
-Cards</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>To show timing and speed
-information per speed group.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>In the button panel above the
-main table is a listing of the 4 SGs and the maximum speeds of that group. If a
-group has been allocated (Admin) then the group will include a selection tick
-box, when selected that SG card will be presented in the schedule table. The
-cards can be freely selected and deselected, data entered into them being
-retained when closed.<br>
-<br>
-How it works:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>SG cards appear within the Instruction
-column when selected in the control panel.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Each lane shows time and speed for
-that group.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>SG are only provided when setup in the
-Admin page.<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Added Time row</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>An added row enables the
-introduction of added time to the next instruction, times added are SG
-independent. On screen an added time row is taller but in print its row height
-is the same as any other row.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Added times are added to
-compensate for delays at traffic lights and time provided for breaks in the
-schedule, such as lunch. </span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-0cm;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Use case</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-0cm;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Such timings can be used to give
-slower speed groups a head start to avoid faster groups needing to overtake in
-a section where it might be difficult to do so. </span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-0cm;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-0cm;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Tip: Use Timeline to aid
-appreciation of groups as the proceed along the route.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:16.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Save
-and Load</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Save and load are common to all
-pages, selecting save will store a backup of your work in the workspace folder
-based on the rally title.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Load when selected will present a
-file picker to enable the selection of which saved rally file is to be loaded,
-it must be emphasized that loading will overwrite your current work.<br>
-<br>
-Note: a warning is shown before loading a file.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:54.45pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:16.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Day
-selection</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:54.45pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Purpose:<br>
-To select which rally day is being viewed and edited in schedule, when you
-select an alternate day the Controls page for that day will be automatically
-selected, likewise the same applies selecting a day in Controls, the schedule
-for that day will be presented.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:54.45pt;margin-bottom:
-0cm;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>How to use:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:54.45pt;
-margin-bottom:0cm;margin-left:2.0cm;text-indent:0cm'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif'>Use
-the Day selector at the top of the page.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:54.45pt;
-margin-bottom:10.0pt;margin-left:2.0cm;text-indent:0cm'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif'>Select
-the required day.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:54.45pt;
-margin-bottom:10.0pt;margin-left:2.0cm;text-indent:0cm'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:13.0pt;line-height:115%;font-family:"Segoe UI Emoji",sans-serif'>The
-visible cards and data update immediately.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:16.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Print
-options</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Went print is selected options
-are presented to select the day to be printed and for which speed group. The
-print dialog offering option for portrait or landscape formats. The layout of
-the printed pages is predefined.<br>
-<br>
-Note: Red (non-printing) values are omitted automatically<br>
-<br>
-</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:16.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Timeline</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>A tool that can be used to review
-cars and the different speed groups as they proceed along the rally route and
-review where faster groups pass slower ones.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>When the timeline card is opened
-there are option buttons to select how it is presented on the page.</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Dock, the card is positioned in the
-table on the right, the edge of the card can be moved left and right as
-required.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Float, the card can be freely
-positioned on the page.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:55.5pt;
-margin-bottom:10.0pt;margin-left:92.7pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-size:13.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:13.0pt;line-height:115%;
-font-family:"Segoe UI Emoji",sans-serif'>Normal/Compact, change the size of the
-card.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><b><span lang=EN-US style='font-size:16.0pt;
-line-height:115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>&nbsp;</span></b></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Card controls</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Start delays section:</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Group identifies each of the
-assigned SG and the entries for that (group).</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Delays (min): At the start of the
-rally added delays between SG can be applied, giving slower groups a head start
-to avoid faster groups having to overtake when road condition are less than
-ideal. Use the “Apply live delays” selector to turn delays on and off.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Cars: when planning and reviewing
-the rally using Timeline entries for each SG may not be known, so cars are
-manually selected as a representation the rally Cars for each group.  </span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Note: In the graphic each SG is
-illustrated as a train of cars, the dots in the train being the distance
-between cars, these spacings change dynamically based on speed.<br>
-<br>
-</span><span lang=EN-US style='font-size:14.0pt;line-height:115%;font-family:
-"Segoe UI Emoji",sans-serif;color:#0070C0'>Focus Row</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Enables the selection of an
-instruction/waypoint in the schedule and sets the centre point of the graphic
-to that point. Listed below is copy of the table instruction text for that
-waypoint.<br>
-<br>
-</span><span lang=EN-US style='font-size:14.0pt;line-height:115%;font-family:
-"Segoe UI Emoji",sans-serif;color:#0070C0'>TimeLine graphic</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Below the graphic are two
-horizontal scroll bars, the upper one pans the length of the routes whilst the
-lower one pans 20 minutes either side of the current focused point, when a
-focus point is changed the time scroll resets to centre. At the bottom of the
-graphic pane are left and right arrows icons that enable stepping forward and
-backward along the route.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>Waypoints such as STC, Marshal
-and Added time are colour coded for ease of reference. To the right of a
-waypoint in front of each train approaching that waypoint are times, A for
-arrival and associated with an Added time waypoint a D for departure time. Times
-are Rally master time.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:14.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif;color:#0070C0'>Interaction with
-Admin and Controls – Start delays</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'>If start delay times are to be
-taken into account, then in Admin when the staring order is slowest groups
-first an additional option is present in the Control panel to add delay times
-to the start times of the groups, including delay timings automatically updates
-the control page ETA timings.</span></p>
-
-<p class=MsoNormal style='margin-top:0cm;margin-right:55.5pt;margin-bottom:
-10.0pt;margin-left:2.0cm'><span lang=EN-US style='font-size:13.0pt;line-height:
-115%;font-family:"Segoe UI Emoji",sans-serif'><br>
-<br>
-</span></p>
-
-</div>
-
+<body>
+<main>
+<h1>Schedule — Route, Timings and Controls</h1>
+<h2>Overview</h2>
+<p>The Schedule page is used to build the rally route and calculate timings. You add rows of instructions and controls as required, you set distance and speed for each row of the schedule. As controls are added to the schedule, they are automatically added to the controls page based on the selected rally day.</p>
+<p>The page has a Normal/Compact button, toggling the button changes the page size.</p>
+<h2>Key items</h2>
+<ul>
+<li>Build the route using instruction and control rows.</li>
+<li>Define distances and speeds, times are calculated automatically.</li>
+<li>Control what prints using tick boxes and colour rules.</li>
+<li>Manage Speed Groups (SG) by comparing side by side.</li>
+<li>Add and manage Added Time adjustments, examples, traffic lights, tea and lunch stops.</li>
+<li>Save, Load, Rally projects.</li>
+<li>Print schedule outputs based on day and speed group.</li>
+</ul>
+<h2>Rows</h2>
+<h2>Row types:</h2>
+<ul>
+<li>Instruction — normal route instruction.</li>
+<li>STC — Self Time Control.</li>
+<li>Marshal — marshal control point.</li>
+<li>Open Control — a control with rules.</li>
+<li>Added Time — applies a time delay adjustment, per speed group.</li>
+<li>Start STC — resets the timing baseline.</li>
+</ul>
+<h2>Font colour and print protocol</h2>
+<p>To clearly indicate editability and that printed.
+
+Colour rules:</p>
+<ul>
+<li>Blue text — auto-calculated and none editable.</li>
+<li>Red text — will not appear in print.</li>
+<li>Black text — normal editable and printed content.</li>
+</ul>
+<h2>Notes:</h2>
+<ul>
+<li>Red text is automatically excluded from a print output.</li>
+<li>Colour feedback updates immediately as options change.</li>
+</ul>
+<h3>Tick boxes for printing options</h3>
+<p>To control whether specific values appear in a printed output.
+
+How it works:</p>
+<ul>
+<li>DIST and TIME fields include a tick box.</li>
+<li>When ticked, the value turns red and not printed.</li>
+<li>Note: Some row types automatically suppress detail from print.</li>
+</ul>
+<h3>Pristine state (orange warning)</h3>
+<p>Indicates values that have not yet been edited or confirmed.
+
+How it works:</p>
+<ul>
+<li>Newly added row the DIST and SPEED values present an orange ring.</li>
+<li>The ring clears once the value is edited or confirmed.</li>
+<li>Pristine is a visual warning only.</li>
+<li>It does not affect calculations or printing.</li>
+</ul>
+<h2>Distance validation</h2>
+<p>Warning of an invalid distance sequence.</p>
+<ul>
+<li>If a distance goes backwards, the field is flagged by a red border.</li>
+<li>This highlights a route definition error.</li>
+</ul>
+<p class='note'>Note: Calculations continue, but the error should be corrected before use.</p>
+<h3>Speed validation (print clarity)</h3>
+<p>Speeds are only printed in a following row when there is value change, this is applied automatically.</p>
+<h2>Gear icon in the first coloumb</h2>
+<p>When selected a menu is present offering a number of insertion options, an insert is placed in the row below that first selected, there is also a delete option.</p>
+<h3>Turn column and print selection</h3>
+<p>Turn instructions can optionally appear in printed output. For those that prefer to write turnings as part of an instruction text, the Turn column can be switch off.</p>
+<ul>
+<li>The TURN column has a global print toggle, click “Turn” in the column header it will turn red</li>
+<li>When disabled, the TURN column is hidden from print</li>
+<li>Visual feedback shows the column details in red, will not be printed.</li>
+</ul>
+<h2>Speed Group (SG) Cards</h2>
+<p>To show timing and speed information per speed group.</p>
+<p>In the button panel above the main table is a listing of the 4 SGs and the maximum speeds of that group. If a group has been allocated (Admin) then the group will include a selection tick box, when selected that SG card will be presented in the schedule table. The cards can be freely selected and deselected, data entered into them being retained when closed.
+
+How it works:</p>
+<ul>
+<li>SG cards appear within the Instruction column when selected in the control panel.</li>
+<li>Each lane shows time and speed for that group.</li>
+<li>SG are only provided when setup in the Admin page.</li>
+</ul>
+<h2>Added Time row</h2>
+<p>An added row enables the introduction of added time to the next instruction, times added are SG independent. On screen an added time row is taller but in print its row height is the same as any other row.</p>
+<p>Added times are added to compensate for delays at traffic lights and time provided for breaks in the schedule, such as lunch.</p>
+<h2>Use case</h2>
+<p>Such timings can be used to give slower speed groups a head start to avoid faster groups needing to overtake in a section where it might be difficult to do so.</p>
+<p>Tip: Use Timeline to aid appreciation of groups as the proceed along the route.</p>
+<h2>Save and Load</h2>
+<p>Save and load are common to all pages, selecting save will store a backup of your work in the workspace folder based on the rally title.</p>
+<p>Load when selected will present a file picker to enable the selection of which saved rally file is to be loaded, it must be emphasized that loading will overwrite your current work.
+
+Note: a warning is shown before loading a file.</p>
+<h2>Day selection</h2>
+<h3>Purpose:
+To select which rally day is being viewed and edited in schedule, when you select an alternate day the Controls page for that day will be automatically selected, likewise the same applies selecting a day in Controls, the schedule for that day will be presented.</h3>
+<h2>How to use:</h2>
+<ul>
+<li>Use the Day selector at the top of the page.</li>
+<li>Select the required day.</li>
+<li>The visible cards and data update immediately.</li>
+</ul>
+<h2>Print options</h2>
+<p>Went print is selected options are presented to select the day to be printed and for which speed group. The print dialog offering option for portrait or landscape formats. The layout of the printed pages is predefined.
+
+Note: Red (non-printing) values are omitted automatically</p>
+<h2>Timeline</h2>
+<p>A tool that can be used to review cars and the different speed groups as they proceed along the rally route and review where faster groups pass slower ones.</p>
+<p>When the timeline card is opened there are option buttons to select how it is presented on the page.</p>
+<ul>
+<li>Dock, the card is positioned in the table on the right, the edge of the card can be moved left and right as required.</li>
+<li>Float, the card can be freely positioned on the page.</li>
+<li>Normal/Compact, change the size of the card.</li>
+</ul>
+<h2>Card controls</h2>
+<h2>Start delays section:</h2>
+<p>Group identifies each of the assigned SG and the entries for that (group).</p>
+<p>Delays (min): At the start of the rally added delays between SG can be applied, giving slower groups a head start to avoid faster groups having to overtake when road condition are less than ideal. Use the “Apply live delays” selector to turn delays on and off.</p>
+<p>Cars: when planning and reviewing the rally using Timeline entries for each SG may not be known, so cars are manually selected as a representation the rally Cars for each group.</p>
+<p class='note'>Note: In the graphic each SG is illustrated as a train of cars, the dots in the train being the distance between cars, these spacings change dynamically based on speed.
+
+Focus Row</p>
+<p>Enables the selection of an instruction/waypoint in the schedule and sets the centre point of the graphic to that point. Listed below is copy of the table instruction text for that waypoint.
+
+TimeLine graphic</p>
+<p>Below the graphic are two horizontal scroll bars, the upper one pans the length of the routes whilst the lower one pans 20 minutes either side of the current focused point, when a focus point is changed the time scroll resets to centre. At the bottom of the graphic pane are left and right arrows icons that enable stepping forward and backward along the route.</p>
+<p>Waypoints such as STC, Marshal and Added time are colour coded for ease of reference. To the right of a waypoint in front of each train approaching that waypoint are times, A for arrival and associated with an Added time waypoint a D for departure time. Times are Rally master time.</p>
+<h3>Interaction with Admin and Controls – Start delays</h3>
+<p>If start delay times are to be taken into account, then in Admin when the staring order is slowest groups first an additional option is present in the Control panel to add delay times to the start times of the groups, including delay timings automatically updates the control page ETA timings.</p>
+</main>
 </body>
-
 </html>
